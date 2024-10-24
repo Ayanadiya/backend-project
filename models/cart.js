@@ -37,4 +37,16 @@ module.exports= class Cart {
             })
         })
    }
+
+   static deleteProduct(id, price) {
+     fs.readFile(p, (err, fileContent) => {
+        if(err)
+        {
+            return;
+        }
+        const updatedCart = {...cart};
+
+        cart.totalpriceotalPrice= productPrice;
+     })
+   }
 }
